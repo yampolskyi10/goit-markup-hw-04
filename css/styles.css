@@ -109,8 +109,10 @@ gap: 40px;
   }
   
   .header-list-link {
-    padding: 24px 0;
-    transition: color var(--transition);
+    color: #2E2F42;
+    text-decoration: none;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .current{
@@ -256,6 +258,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 72px) / 4);
   }
   
+  privilages-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 112px;
+border-radius: 4px;
+margin-bottom: 8px;
+  }
+
   .main-section-subheader {
     font-weight: 500;
     font-size: 20px;
@@ -296,6 +307,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 48px) / 3);
   }
   
+
+
   .team {
     background: var(--light-blue-background);
     padding: 120px 0;
