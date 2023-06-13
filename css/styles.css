@@ -594,15 +594,13 @@ border: none;
 fill: #ffffff;
 }
 
-
-.icon-close-btn {
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-fill: currentColor;
+.modal-svg{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close-btn:hover, .icon-close-btn:focus{
-  fill: #ffffff;
-}
+.modal-svg:hover{ fill: #ffffff;}
+
+    .modal-svg:focus{ fill: #ffffff;}
 
 /*!----------------------------PORTFOLIO------------------------------- */
 .main-btn-portfolio {
